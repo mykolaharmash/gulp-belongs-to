@@ -1,8 +1,9 @@
 {
   "name": "gulp-belongs-to",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "plugin for adding parents of included files to stream",
   "main": "index.js",
+  "homepage": "https://github.com/snater/gulp-belongs-to",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +11,7 @@
     "gulplugin"
   ],
   "author": "Garmash Nikolay",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.1"
   },
