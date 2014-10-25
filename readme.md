@@ -48,3 +48,7 @@ You can specify multiple `belongs_to` directives.
 // belongs_to ../main.scss
 // belongs_to ../foo/bar.scss
 ```
+
+## Install
+
+Run `npm install gulp-belongs-to`
