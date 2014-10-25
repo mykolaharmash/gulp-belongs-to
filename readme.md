@@ -4,7 +4,7 @@ When editing partial asset (eg sass mixin, jade include, etc.) with watch runnin
 
 ## Usage
 
-Plugin may be used with built in __watch__ or with [gulp-watch](https://github.com/floatdrop/gulp-watch).
+Plugin works best with [gulp-watch](https://github.com/floatdrop/gulp-watch).
 
 `mixins/headers.scss`
 ```
