@@ -6,7 +6,7 @@ When editing partial asset (eg sass mixin, jade include, etc.) with watch runnin
 
 Plugin works best with [gulp-watch](https://github.com/floatdrop/gulp-watch).
 
-`mixins/headers.scss`
+`mixins/_headers.scss`
 ```
 // belongs_to ../main.scss
 
@@ -42,7 +42,7 @@ var gulp = require('gulp'),
 });
 ```
 
-Now, with `gulp watch` running, when mixins/headers.scss edited only main.scss will recompile.
+Now, with `gulp watch` running, when mixins/_headers.scss edited only main.scss will recompile.
 You can specify multiple `belongs_to` directives.
 ```
 // belongs_to ../main.scss
